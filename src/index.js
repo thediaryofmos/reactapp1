@@ -4,12 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+ReactDOM.render(
+  //React.createElement('div', null, "Hello World with create Element")
+  //React.createElement('div', null, React.createElement('span', null, "Hello World from span")),
+  <div><App name = "Osama Shahzad" age = {35} /></div>,
+  document.getElementById('root')
+
+);
+/*
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
-);
+);*/
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
